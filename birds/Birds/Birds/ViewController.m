@@ -15,7 +15,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    Bird *bird = [Bird new];
+    // Создание первого колеса
+    Wing *wingLeft = [[Wing alloc] initWithNumber:@1];
+    // Создание второго колеса
+    Wing *wingRight = [[Wing alloc] initWithNumber:@2];
+
+    NSArray *wings = [[NSArray alloc] initWithObjects:wingLeft, wingRight,nil];
+
+    Head *head = [[Head alloc] initWithModel:@"Martin"];
+
+    [bird configureBird:head andWings:wings];
+    [bird release];
 }
 
 
