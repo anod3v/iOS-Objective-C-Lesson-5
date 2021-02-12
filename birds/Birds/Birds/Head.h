@@ -10,8 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Head : NSObject
-@property (nonatomic, strong) NSString *model;
-- (instancetype) initWithModel:(NSString *)model;
+@property (nonatomic, strong) NSString *name;
+- (instancetype) initWithName:(NSString *)model;
 @end
 
 NS_ASSUME_NONNULL_END

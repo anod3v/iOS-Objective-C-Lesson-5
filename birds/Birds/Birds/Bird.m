@@ -14,7 +14,7 @@
 {
     self = [super init];
     if (self) {
-        NSLog(@"Create car");
+        NSLog(@"Created a bird");
     }
     return self;
 }

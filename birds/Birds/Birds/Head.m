@@ -9,21 +9,21 @@
 
 @implementation Head
 
-- (instancetype)initWithModel:(NSString *)model {
+- (instancetype)initWithName:(NSString *)name {
     self = [super init];
     if (self) {
-        [model retain];
-        [model release];
-        self.model = model;
-        NSLog(@"Model engine - %@", model);
+        [name retain];
+        [name release];
+        self.name = name;
+        NSLog(@"Bird is born with name - %@", name);
     }
     return  self;
 }
 
 - (void)dealloc {
-    NSLog(@"Dealloc Enging - %@", self.model);
-    [self.model retain];
-    [self.model release];
+    NSLog(@"Dealloc Bird - %@", self.name);
+    [self.name retain];
+    [self.name release];
     [super dealloc];
 }
 

@@ -24,7 +24,7 @@
 
     NSArray *wings = [[NSArray alloc] initWithObjects:wingLeft, wingRight,nil];
 
-    Head *head = [[Head alloc] initWithModel:@"Martin"];
+    Head *head = [[Head alloc] initWithName:@"Martin"];
 
     [bird configureBird:head andWings:wings];
     [bird release];
