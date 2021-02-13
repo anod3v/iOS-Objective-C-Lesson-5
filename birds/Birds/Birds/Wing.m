@@ -12,18 +12,18 @@
 -(instancetype)initWithPosition:(Position)position{
     self = [super init];
     if (self) {
-        [position retain];
-        [position release];
+//        [position retain];
+//        [position release];
         self.position = position;
-        NSLog(@"Create Wing %@", position);
+        NSLog(@"Create Wing %ld", (long)position);;
     }
     return self;
 }
 
 - (void)dealloc {
-    NSLog(@"Dealloc Wing - %@", self.position);
-    [self.position retain];
-    [self.position release];
+    NSLog(@"Dealloc Wing - %ld", (long)self.position);
+//    [self.position retain];
+//    [self.position release];
     [super dealloc];
 }
 @end
