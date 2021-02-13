@@ -11,8 +11,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Wing : NSObject
 
-@property(nonatomic, strong) NSNumber *number;
--(instancetype)initWithNumber:(NSNumber *)number;
+typedef NS_ENUM(NSInteger, Position)
+{
+    PositionLeft = 0,
+    PositionRight = 1
+};
+
+@property(nonatomic) enum Position position;
+-(instancetype)initWithPosition:(Position )position;
 
 @end
 

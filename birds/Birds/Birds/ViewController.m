@@ -18,9 +18,9 @@
     
     Bird *bird = [Bird new];
     // Создание первого колеса
-    Wing *wingLeft = [[Wing alloc] initWithNumber:@1];
+    Wing *wingLeft = [[Wing alloc] initWithPosition: PositionLeft];
     // Создание второго колеса
-    Wing *wingRight = [[Wing alloc] initWithNumber:@2];
+    Wing *wingRight = [[Wing alloc] initWithPosition: PositionRight];
 
     NSArray *wings = [[NSArray alloc] initWithObjects:wingLeft, wingRight,nil];
 

@@ -9,21 +9,21 @@
 
 @implementation Wing
 
--(instancetype)initWithNumber:(NSNumber *)number {
+-(instancetype)initWithPosition:(Position)position{
     self = [super init];
     if (self) {
-        [number retain];
-        [number release];
-        self.number = number;
-        NSLog(@"Create Wing %@", number);
+        [position retain];
+        [position release];
+        self.position = position;
+        NSLog(@"Create Wing %@", position);
     }
     return self;
 }
 
 - (void)dealloc {
-    NSLog(@"Dealloc Wing - %@", self.number);
-    [self.number retain];
-    [self.number release];
+    NSLog(@"Dealloc Wing - %@", self.position);
+    [self.position retain];
+    [self.position release];
     [super dealloc];
 }
 @end

@@ -29,7 +29,7 @@
     [wings release];
     _wings = wings;
     for (Wing *wing in wings) {
-        NSLog(@"Add wing (%@) for bird", wing.number);
+        NSLog(@"Add wing (%@) for bird", wing.position);
     }
 }
 
