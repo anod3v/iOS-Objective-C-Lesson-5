@@ -6,9 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Bird.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong, ) NSArray *obj;
 
 @end
 

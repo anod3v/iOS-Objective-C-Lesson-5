@@ -14,6 +14,9 @@
 		5561DC4D25D64B4000C197C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5561DC4C25D64B4000C197C4 /* Assets.xcassets */; };
 		5561DC5025D64B4000C197C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5561DC4E25D64B4000C197C4 /* LaunchScreen.storyboard */; };
 		5561DC5325D64B4000C197C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561DC5225D64B4000C197C4 /* main.m */; };
+		5561DC8A25D64F4300C197C4 /* Wing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561DC8925D64F4300C197C4 /* Wing.m */; };
+		5561DC8E25D654FB00C197C4 /* Head.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561DC8D25D654FB00C197C4 /* Head.m */; };
+		5561DC9225D655BF00C197C4 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 5561DC9125D655BF00C197C4 /* Bird.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		5561DC4F25D64B4000C197C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5561DC5125D64B4000C197C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5561DC5225D64B4000C197C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5561DC8825D64F4300C197C4 /* Wing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wing.h; sourceTree = "<group>"; };
+		5561DC8925D64F4300C197C4 /* Wing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wing.m; sourceTree = "<group>"; };
+		5561DC8C25D654FB00C197C4 /* Head.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Head.h; sourceTree = "<group>"; };
+		5561DC8D25D654FB00C197C4 /* Head.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Head.m; sourceTree = "<group>"; };
+		5561DC9025D655BF00C197C4 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		5561DC9125D655BF00C197C4 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				5561DC4425D64B4000C197C4 /* SceneDelegate.m */,
 				5561DC4625D64B4000C197C4 /* ViewController.h */,
 				5561DC4725D64B4000C197C4 /* ViewController.m */,
+				5561DC8825D64F4300C197C4 /* Wing.h */,
+				5561DC8925D64F4300C197C4 /* Wing.m */,
+				5561DC8C25D654FB00C197C4 /* Head.h */,
+				5561DC8D25D654FB00C197C4 /* Head.m */,
+				5561DC9025D655BF00C197C4 /* Bird.h */,
+				5561DC9125D655BF00C197C4 /* Bird.m */,
 				5561DC4925D64B4000C197C4 /* Main.storyboard */,
 				5561DC4C25D64B4000C197C4 /* Assets.xcassets */,
 				5561DC4E25D64B4000C197C4 /* LaunchScreen.storyboard */,
@@ -145,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5561DC8A25D64F4300C197C4 /* Wing.m in Sources */,
+				5561DC8E25D654FB00C197C4 /* Head.m in Sources */,
 				5561DC4825D64B4000C197C4 /* ViewController.m in Sources */,
+				5561DC9225D655BF00C197C4 /* Bird.m in Sources */,
 				5561DC4225D64B4000C197C4 /* AppDelegate.m in Sources */,
 				5561DC5325D64B4000C197C4 /* main.m in Sources */,
 				5561DC4525D64B4000C197C4 /* SceneDelegate.m in Sources */,
